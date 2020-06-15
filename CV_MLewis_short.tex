@@ -17,6 +17,8 @@
 \usepackage{textcomp}
 \usepackage{setspace}
 \usepackage{url}
+\usepackage{multicol}
+\usepackage{anysize}
 
 % Comment the following lines to use the default Computer Modern font
 % instead of the Palatino font provided by the mathpazo package.
@@ -24,7 +26,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[sc,osf]{mathpazo}
 
-\def\name{Molly L.  Lewis}
+\def\name{Molly Y.  Lewis}
 
 % Replace this with a link to your CV if you like, or set it empty
 % (as in \def\footerlink{}) to remove the link in the footer:
@@ -78,6 +80,7 @@
 
 \begin{document}
 
+
 %%%%% Header
 % Place name at left
 %{\huge \name}
@@ -85,29 +88,25 @@
 \centerline{\huge \bf \name}
 \vspace{0.25in}
 
-
+%\linespread{.5}
  \normalsize
-  %\href{http://www.stanford.edu/}{Stanford University} \\
-  %Department of Psychology \\
-  %Jordan Hall\\
-  %450 Serra Mall \\
-  %Stanford, CA 94305\\
   
+  \begin{multicols}{2}
+%\large
+\begin{flushleft}
   The University of Chicago  \\
   Computation Institute \\
-  5735 S Ellis Ave,\\
- Chicago, IL 60637\\
- 816.419.5764\\
-  
-  \begin{minipage}{0.45\linewidth}
-%\large
-
+  5735 S Ellis Ave.\\
+ Chicago, IL, USA 60637\\
+\end{flushleft}
+\begin{flushleft}
+Phone:  +1-816-419-5764\\
 Email: \href{mailto:mollyllewis@gmail.com}{\tt mollyllewis@gmail.com}\\
-Homepage: \href{http://home.uchicago.edu/~mollylewis}{\tt https://home.uchicago.edu/$\sim$mollylewis}\\
+Web: \href{http://home.uchicago.edu/~mollylewis}{\tt https://home.uchicago.edu/$\sim$mollylewis}\\
 Github: \href{https://github.com/mllewis}{\tt https://github.com/mllewis}\\
-
+\end{flushleft}
  
-\end{minipage}
+\end{multicols}
 %\begin{minipage}{0.45\linewidth}
  % \begin{tabular}{ll}
  %     Email: & \href{mailto:mll@stanford.edu}{\tt mll@stanford.edu} \\
@@ -117,62 +116,33 @@ Github: \href{https://github.com/mllewis}{\tt https://github.com/mllewis}\\
 
 
 %%%%% Education
-\section*{Education}
-
+\section*{Education and Employment}
 \begin{itemize}
-  \item Ph.D., Developmental Psychology, Stanford University, fall 2016
+\item Post-doctoral scholar, co-advised by Gary Lupyan (University of Wisconsin-Madison) and  James Evans (University of Chicago), 2017 -- present
+
+
+  \item Ph.D., Developmental Psychology, Stanford University (Advisor: Michael C. Frank; Committee: Ellen M. Markman, Noah Goodman, Hyowon Gweon, and Thomas Icard),  fall 2016 
+   \item Lab Coordinator, Communication and Language Lab (PI: Duane Watson), University of Illinois at Urbana-Champaign,  2009 -- 2011
+  \item  B.A., Linguistics, Reed College, May 2009
+  \end{itemize}
+  
+  \section*{Additional coursework}
   \begin{itemize}
-  	\item Advisor: Michael C. Frank
-	\item Committee: Ellen M. Markman, Noah Goodman, Hyowon Gweon, and Thomas Icard
-   \end{itemize}
-  \item B.A., Linguistics, Reed College, May 2009
-     \item Computational Social Science Summer School, Princeton, New Jersey, summer 2017
-   \item Machine Learning Summer School, T\"{u}bingen, Germany, summer 2013 
-   \item Graduate coursework, Psychology Department, University of Illinois at Urbana-Champaign, 2010
+     \item  Computational Social Science Summer School, Princeton, New Jersey, summer 2017;     \item Machine Learning Summer School, T\"{u}bingen, Germany, summer 2013; 
 \end{itemize}
 
-%%%%% Professional Experimence
-\section*{Employment}
 
-\begin{itemize}
-\item Post-doctoral scholar, co-advised by James Evans (University of Chicago) and Gary Lupyan (University of Wisconsin-Madison), 2017 -- present
-
-\item Lab Coordinator, Communication and Language Lab (PI: Duane Watson), University of Illinois at Urbana-Champaign,  2009 -- 2011
-
-\end{itemize}
 
 %%%%% Research interests
-\section*{Research Interest}
+%\section*{Research Interests}
 
 %How does a word come to stand for a meaning? My research explores this question at two levels of analysis: the individual speaker acquiring language and the socially-emergent lexicon. These two levels of analysis take place over different timescales---the lifespan of a speaker and the course of language evolution, respectively. But, they are necessarily deeply related to each other because the lexicon that emerges from a social group is the product of individual speakers acquiring and transmitting a language. I use experimental and computational methods to explore this and related questions.
-
-My research examines the psychological mechanisms underlying large scale socio-cultural phenomena. My work has primarily focused on language as a particularly interesting and important case study of socio-cultural regularities. Using language, I examine how cognitive and pragmatic pressures can lead to patterns in behavior at the level of individuals, and over time, how these pressures can lead to law-like regularities at the level of social groups. I am also interested in the role that  cognitive development plays in these dynamics.
-
-\section*{Methods}
-I use a wide range of methods in my research, listed below with select corresponding citations. Across methods, I am committed to open science practices; I make all my data, code, and materials publicly available where possible. 
-
-\begin{itemize}
-
-  \item {\bf Machine learning approaches to big data} {\small(Lewis \& Lupyan,  in press; Lewis \& Lupyan, 2018; Lewis \& Frank, 2016)}
-  
-  \item {\bf Experimental methods with adults and children } {\small(Lewis \& Frank, 2016a; Lewis \& Frank, 2016b; Lewis \& Frank, under review; Lewis \& Watson, 2015; Lewis,  Sugarman, \& Frank, 2014; Frank, Sugarman, Horowitz,  Lewis \& Yurovsky, 2016)}
-  
-    \item {\bf Meta-analysis} {\small (Lewis,  Braginsky, Tsuji, Bergmann, Piccinini,  Cristia, \& Frank, under review; Bergmann, Tsuji,  Piccinini, Lewis, Braginsky,  Frank \& Cristia, in press)}
-
-  \item {\bf Computational modeling} {\small(Lewis \& Frank, 2013a; Lewis \& Frank, 2013b; Frank,  Lewis  \& MacDonald,  2016)}
-
-  \item {\bf Longitudinal field studies} {\small(Barner,  Athanasopoulou,   Chu,   Lewis,  Marchand, Schneider  \& Frank, 2017)}
-
-\end{itemize}
-
+		
 
 %%%%% Academic Honors
 \section*{Honors and Awards}
 \begin{itemize}
-\item Paula Menyuk Travel Award BUCLD (2015)
-\item Cognitive Science Society Travel Award (2013)
-\item Honorable Mention, NSF Graduate Research Fellowship Program (2013, 2012)
-\item Commended for Excellence in Scholarship, Reed College (2009, 2008, 2007)
+\item Paula Menyuk Travel Award BUCLD (2015); Cognitive Science Society Travel Award (2013); NSF Graduate Research Fellowship, Honorable Mention (2013, 2012); Commended for Excellence in Scholarship, Reed College (2009, 2008, 2007)
 \end{itemize}
 
 
@@ -182,21 +152,23 @@ I use a wide range of methods in my research, listed below with select correspon
 
 \subsection*{Peer-Reviewed Journal Articles}
 
-\onehalfspacing
+%\onehalfspacing
 
-\hangindent=.7cm {\bf Lewis, M.} \& Frank, M. C. (under review). Still suspicious: The suspicious coincidence effect revisited. {\it Psychological Science}.
+\hangindent=.7cm {\bf Lewis, M.}, Braginsky, M., Tsuji, S., Bergmann, C., Piccinini, P., Cristia, A. \& Frank, M. C. (under review). A quantitative synthesis of early language acquisition using meta-analysis. \\ \href{https://psyarxiv.com/htsjm/}{\tt https://psyarxiv.com/htsjm/}
 
-\hangindent=.7cm Lynn, P., {\bf Lewis, M.} \& Lupyan, G. (under review). Shaping semantic networks with transcranial direct current stimulation.
+\hangindent=.7cm Lynn, P., {\bf Lewis, M.} \& Lupyan, G. (under review). Shaping semantic networks with transcranial direct current stimulation. \href{https://osf.io/qm8yt/}{\tt https://osf.io/qm8yt/}
 
-\hangindent=.7cm {\bf Lewis, M.}, Braginsky, M., Tsuji, S., Bergmann, C., Piccinini, P., Cristia, A. \& Frank, M. C. (under review). A quantitative synthesis of early language acquisition using meta-analysis. 
+
+
+\hangindent=.7cm {\bf Lewis, M.} \& Frank, M. C. (2018). Still suspicious: The suspicious coincidence effect revisited.  {\it Psychological Science}, 29, 2039-2047. \href{https://psyarxiv.com/x6a2u}{\tt https://psyarxiv.com/x6a2u}
   
 
 \hangindent=.7cm Bergmann, C., Tsuji, S., Piccinini, P., {\bf Lewis, M.}, Braginsky, M., Frank, M. C. \& Cristia, A. (in press). Assessing current practices in language acquisition research through meta-analyses. {\it Child Development}.
 
-
 \hangindent=.7cm Barner, D., Athanasopoulou, A., Chu, J., {\bf Lewis, M.}, Marchand, E., Schneider, R. M., Frank, M. C. (2017). A one-year classroom-randomized trial of mental abacus instruction for first- and second-grade students.  {\it Journal of Numerical Cognition}, 3(3), 540-558.
+    
 
-\hangindent=.7cm Lupyan, G. \& {\bf Lewis, M.}(2017). From words-as-mappings to words-as-cues: The role of language in semantic knowledge. {\it Language, Cognition and Neuroscience}.
+\hangindent=.7cm Lupyan, G. \& {\bf Lewis, M.} (2017). From words-as-mappings to words-as-cues: The role of language in semantic knowledge. {\it Language, Cognition and Neuroscience}.
 
   \hangindent=.7cm {\bf Lewis, M.} \& Frank, M. C. (2016). Understanding the effect of social context on learning: A replication of Xu and Tenenbaum (2007b). {\it Journal of Experimental Psychology: General}, 145(9), e72-e80.
 
@@ -208,7 +180,6 @@ I use a wide range of methods in my research, listed below with select correspon
  
   \hangindent=.7cm {\bf Lewis, M.} \& Watson, D. G. (2015). Effects of lexical semantics on acoustic prominence. { \it Language and Cognition}, 7, 1-21. 
 
-  
   \subsection*{Peer-Reviewed Conference Proceedings} 
     \hangindent=.7cm {\bf Lewis, M.} \& Lupyan, G. (in press). Language use shapes cultural norms: Large scale evidence from gender.  { \it Proceedings of the 39th Annual Meeting of the Cognitive Science Society.}
 
@@ -225,59 +196,60 @@ I use a wide range of methods in my research, listed below with select correspon
   
  \hangindent=.7cm {\bf Lewis, M.} \& Frank, M. C. (2013). Modeling disambiguation in word learning via multiple probabilistic constraints. { \it Proceedings of the 35th Annual Meeting of the Cognitive Science Society.}
 
- \hangindent=.7cm {\bf Lewis, M.} \& Frank, M. C. (2013). An integrated model of concept learning and word-concept mapping.{ \it Proceedings of the 35th Annual Meeting of the Cognitive Science Society.}
+ \hangindent=.7cm {\bf Lewis, M.} \& Frank, M. (2013). An integrated model of concept learning and word-concept mapping.{ \it Proceedings of the 35th Annual Meeting of the Cognitive Science Society.}
  
  %\hangindent=.7cm {\bf Lewis, M.} (2009). A Parallel Formulation of Whorfian and Neo-Whorfian Linguistic Relativity. (Unpublished BA thesis). Reed College, Portland, OR.
  \singlespacing
  
  %%%%% Talks and Presentations
 \section*{Presentations}
-\onehalfspacing
+%\onehalfspacing
 
 \subsection*{Conference Presentations}
 
+ \hangindent=.7cm {\bf Lewis, M.} \& Evans, J. (July, 2018). The topography of variability in cross-linguistic semantics. Talk presented at the 4th Annual International Conference on Computational Social Science, Evanston, Illinois.
 
  \hangindent=.7cm {\bf Lewis, M.} \& Lupyan, G. (April, 2018). What 50 million drawings can tell us about shared meaning. Poster presented at the 12th International Conference of the Evolution of Language, Toru\'{n}, Poland.
 
- \hangindent=.7cm {\bf Lewis, M.}, Braginsky, M., Tsuji, S., Bergmann, C., Piccinini, P., Cristia, A. \& Frank, M. C. (July, 2017). A quantitative synthesis of early language acquisition using meta-analysis. Poster at the Beyond the Lab: Using Big Data to Discover Principles of Cognition Conferences. Madison, Wisconsin.
+ \hangindent=.7cm {\bf Lewis, M.}, Braginsky, M., Tsuji, S., Bergmann, C., Piccinini, P., Cristia, A. \& Frank, M. C. (July, 2017). A quantitative synthesis of early language acquisition using meta-analysis. Poster presented at Beyond the Lab: Using Big Data to Discover Principles of Cognition Conferences, Madison, Wisconsin.
 
-\hangindent=.7cm {\bf Lewis, M.} \& Frank, M. C. (2016, August).  Linguistic niches emerge from pressures at multiple timescales. Poster presented at the 38th annual meeting of the Cognitive Science Society, Philadelphia, Pennsylvania.
+\hangindent=.7cm {\bf Lewis, M.} \& Frank, M. C. (2016, August).  Linguistic niches emerge from pressures at multiple timescales. Poster presented at the 38th Annual Meeting of the Cognitive Science Society, Philadelphia, Pennsylvania.
 
- \hangindent=.7cm  Tsuji, S., {\bf Lewis, M.}, Bergmann, C., Cristia, A.,  Braginsky, M.,  Piccinini, P., Frank, M. C. \& Cristia, A. (2016, May). MetaLab: Supporting Power Analysis and Experimental Planning in Developmental Research. Poster at the 2016 ICIS Conference. New Orleans, Louisiana.
+ \hangindent=.7cm  Tsuji, S., {\bf Lewis, M.}, Bergmann, C., Cristia, A.,  Braginsky, M.,  Piccinini, P., Frank, M. C. \& Cristia, A. (2016, May). MetaLab: Supporting Power Analysis and Experimental Planning in Developmental Research. Poster presented at the 2016 ICIS Conference, New Orleans, Louisiana.
 
 
   \hangindent=.7cm {\bf Lewis, M.} \& Frank M. C. (2016, March). Learnability pressures influence the encoding of information density in the lexicon. Talk presented at the 11th International Conference of the Evolution of Language, New Orleans, Louisiana.
   
-  \hangindent=.7cm  Tsuji, S., Bergmann, C., Cristia, A., {\bf Lewis, M.}, Braginsky, M., \& Frank, M. C. (2016, January). MetaLab: Power Analysis and Experimental Planning in Developmental Research Made Easy. Poster at the 2015 Budapest CEU Conference on Cognitive Development. Budapest, Hungary.
+  \hangindent=.7cm  Tsuji, S., Bergmann, C., Cristia, A., {\bf Lewis, M.}, Braginsky, M., \& Frank, M. C. (2016, January). MetaLab: Power Analysis and Experimental Planning in Developmental Research Made Easy. Poster presented at the 2015 Budapest CEU Conference on Cognitive Development, Budapest, Hungary.
 
 
-\hangindent=.7cm {\bf Lewis, M.},  Braginsky,  M.,  Bergmann, C., Tsuji, S., Cristia, A. \& Frank, M. C. (2015, November). MetaLab: A tool for power analysis and experimental planning in developmental research. Talk presented at the 40th annual meeting of the Boston University Child Language Development, Boston, Massachusetts.
+\hangindent=.7cm {\bf Lewis, M.},  Braginsky,  M.,  Bergmann, C., Tsuji, S., Cristia, A. \& Frank, M. C. (2015, November). MetaLab: A tool for power analysis and experimental planning in developmental research. Talk presented at the 40th Annual Meeting of the Boston University Child Language Development, Boston, Massachusetts.
 
-\hangindent=.7cm {\bf Lewis, M.} \& Frank, M. C. (2015, July). Conceptual complexity and the evolution of the lexicon. Talk presented at the 37th annual meeting of the Cognitive Science Society, Pasadena, California.
+\hangindent=.7cm {\bf Lewis, M.} \& Frank, M. C. (2015, July). Conceptual complexity and the evolution of the lexicon. Talk presented at the 37th Annual Meeting of the Cognitive Science Society, Pasadena, California.
 
 \hangindent=.7cm {\bf Lewis, M.} \& Frank, M. C. (2015, March). A meta-analytic approach to understanding the disambiguation effect. Poster presented at  the 2015 Biennial Meeting of the Society for Research in Child Development, Philadelphia, Pennsylvania.
 
 
-\hangindent=.7cm {\bf Lewis, M.} \& Frank, M. C. (2014, July). The structure of the lexicon reflects  principles of communication. Talk presented at the 36th annual meeting of the Cognitive Science Society, Quebec City, Canada.
+\hangindent=.7cm {\bf Lewis, M.} \& Frank, M. C. (2014, July). The structure of the lexicon reflects  principles of communication. Talk presented at the 36th Annual Meeting of the Cognitive Science Society, Quebec City, Canada.
 
-\hangindent=.7cm {\bf Lewis, M.} \& Frank, M. C. (2014, June). Understanding the psychological sources of communicative behavior. Talk presented at the 40th annual meeting of the Society for Philosophy and Psychology, Vancouver, Canada.
+\hangindent=.7cm {\bf Lewis, M.} \& Frank, M. C. (2014, June). Understanding the psychological sources of communicative behavior. Talk presented at the 40th Annual Meeting of the Society for Philosophy and Psychology, Vancouver, Canada.
 
- \hangindent=.7cm {\bf Lewis, M.} (2013, September). Modeling disambiguation in word learning via multiple probabilistic constraints. Poster presented at Machine Learning Summer School, T\"{u}bingen, Germany.
+ \hangindent=.7cm {\bf Lewis, M.} (2013, September). Modeling disambiguation in word learning via multiple probabilistic constraints. Poster presented at the Machine Learning Summer School, T\"{u}bingen, Germany.
  
 
- \hangindent=.7cm {\bf Lewis, M.}  \& Frank, M. C. (2013, August). An integrated model of concept learning and word-concept mapping. Talk presented at the 35th annual meeting of the Cognitive Science Society, Berlin, Germany.
+ \hangindent=.7cm {\bf Lewis, M.}  \& Frank, M. (2013, August). An integrated model of concept learning and word-concept mapping. Talk presented at the 35th Annual Meeting of the Cognitive Science Society, Berlin, Germany.
  
- \hangindent=.7cm {\bf Lewis, M.}  \& Frank, M. C.  (2013, August). Modeling disambiguation in word learning via multiple probabilistic constraints. Talk presented at the 35th annual meeting of the Cognitive Science Society, Berlin, Germany.
+ \hangindent=.7cm {\bf Lewis, M.}  \& Frank, M. C.  (2013, August). Modeling disambiguation in word learning via multiple probabilistic constraints. Talk presented at the 35th Annual Meeting of the Cognitive Science Society, Berlin, Germany.
  
   \hangindent=.7cm {\bf Lewis, M.} \& Watson, D. G.  (2013, July). Say it like you mean it: Lexical meaning influences prosody. Talk presented at the Embodied and Situated Language Processing Conference, Potsdam, Germany.
  
 
- \hangindent=.7cm {\bf Lewis, M.}  \& Watson, D. (2011, September). Say it like you mean it: Lexical meaning influences prosody. Talk presented at the annual meeting of Architectures and Mechanisms for Language Processing, Paris, France.
+ \hangindent=.7cm {\bf Lewis, M.}  \& Watson, D. (2011, September). Say it like you mean it: Lexical meaning influences prosody. Talk presented at the Annual Meeting of Architectures and Mechanisms for Language Processing, Paris, France.
  
 
-\subsection*{Invited Departmental and Meeting Talks}
+\subsection*{Invited Talks}
 
-\hangindent=.7cm ``Second-language learner text as a window into cross-linguistic semantics" (2018, January). 5th Science of Science Meeting,  University of Chicago - Northwestern University.
+\hangindent=.7cm ``Second-language learner text as a window into cross-linguistic semantics." (2018, January). 5th Science of Science Meeting,  University of Chicago, Northwestern University.
 
 \hangindent=.7cm ``A Quantitative Synthesis of Language Development Using Meta-Analysis." (2017, November). Developmental Brownbag, Department of Psychology,  University of Chicago.
 
@@ -285,7 +257,7 @@ I use a wide range of methods in my research, listed below with select correspon
 
 \hangindent=.7cm ``A Quantitative Synthesis of Language Development Using Meta-Analysis." (2016, June). Developmental Brownbag, Department of Psychology,  Stanford University.
 
-\hangindent=.7cm  ``Cognitive mechanisms shape linguistic structure."  (2016, March). The Knowledge Lab, University of Chicago.
+\hangindent=.7cm  ``Cognitive mechanisms shape linguistic structure."  (2016, March).  Knowledge Lab, University of Chicago.
 
 \hangindent=.7cm ``The role of communicative pressures in shaping the lexicon." (2014, December). Laboratoire de Sciences Cognitives et Psycholinguistique, ENS, Paris, France.
 
@@ -314,57 +286,49 @@ I use a wide range of methods in my research, listed below with select correspon
 
 %%%%% Professional Activities and Service
 \section*{Professional Activities and Service}
-\begin{itemize}
-\item Student Representative, Graduate Admissions Committee, 2014-2015
-\item Co-organizer of Stanford Developmental Talk Series, 2013-2014
-\item Student Representative, Faculty Search Committee, 2012-2013
-\item Peer reviewer for Proceedings of the Annual Meeting of the Cognitive Science Society, 2012 - 2017
-\item Peer reviewer for Evolution of Language Evolution Conference, 2017
-\item Ad-hoc reviewer for Psychonomic Bulletin \& Review, Cognitive Science, Psychological Review, Cognition, Behavioral Research Methods
-\end{itemize}
+%\begin{itemize}
+\hangindent=.7cm MetaLab Governing Board, 2014 - present
+
+\hangindent=.7cm  Peer reviewer, Proceedings of the Annual Meeting of the Cognitive Science Society, 2012-2017; Evolution of Language Evolution Conference, 2017,  Psychonomic Bulletin \& Review, Cognitive Science, Psychological Review, Cognition, Behavioral Research Methods
+
+\hangindent=.7cm Talk Series Organizer, Developmental Talk Series, Stanford University, 2013-2014
+
+\hangindent=.7cm Student Representative, Faculty Search Committee, Stanford University, 2012-2013; Graduate Admissions Committee, Stanford University, 2014-2015
+%\end{itemize}
+
 
 %%%%% Teaching
-\section*{Teaching}
-\begin{itemize}
-\item Organized and co-lead pre-conference workshop at the Annual Cognitive Science Conference, ``Meta-Analytic Methods for Cognitive Scientists" (Co-instructors: Sho Tsuji and Christina Bergmann), August 2016, Philadelphia, Pennsylvania. 
-\item Teaching Assistant, Introduction to Symbolic Systems (Instructors: Dan Lassiter and Thomas Icard), fall 2015
-\item Co-head Teaching Assistant, Introduction to Statistical Methods (Instructor: Ewart Thomas), winter 2015
-\item Co-primary Instructor, Language and Thought, summer 2014
-\item Guest lecture, Introduction to Developmental Psychology (Instructor: Michael C. Frank), spring 2014
-\item Teaching Assistant, Introduction to Statistical Methods (Instructor: Ewart Thomas), winter 2013
-\item Teaching Assistant, Introduction to Developmental Psychology (Instructor: Michael C. Frank), fall 2012, spring 2014
-\item Taught intern workshop on the meta-analysis method, Center for Study of Language and Information, summer 2015
+\section*{Teaching and Mentorship}
+%\begin{itemize}
+\hangindent=.7cm Primary Instructor (with Eleanor Chestnut and Ann Nordmeyer), Language and Thought, Stanford University, summer 2014
 
-\end{itemize}
+\hangindent=.7cm Lead workshop on the meta-analytic method, workshop at the Annual Cognitive Science Conference, ``Meta-Analytic Methods for Cognitive Scientists" (Co-instructors: Sho Tsuji and Christina Bergmann), Philadelphia, Pennsylvania, August 2016; CSLI, Stanford University, summer 2015
 
-\section*{Mentorship}
-\begin{itemize}
-\item Allison Durkin (Yale University, CSLI intern; summer 2015)
-\item Andres Camperi (Stanford University, CSLI intern; summer 2015)
-\item Marlene Ade (Raising Interest in Science and Engineering program; summer 2015)
-\item Ben Morris (Reed College, CSLI intern; summer 2014)
-\item Elise Sugarman (Stanford University, undergraduate thesis advisor; 2013-2014)
-\item Liza Benabbas (Raising Interest in Science and Engineering program; summer 2013)
-\item Mia Kirkendoll (Raising Interest in Science and Engineering program; summer 2012)
+%\item 
+\hangindent=.7cm Guest Lecture, Language Acquisition, University of Wisconsin-Madison, fall 2018; Introduction to Developmental Psychology, Stanford University (Instructor: Michael C. Frank), spring 2014
+%\item 
 
-\end{itemize}
+\hangindent=.7cm Head Teaching Assistant (with Kody Manke), Introduction to Statistical Methods (Instructor: Ewart Thomas), Stanford University, winter 2015
+
+%\item 
+\hangindent=.7cm Teaching Assistant, Introduction to Statistical Methods (Instructor: Ewart Thomas), winter 2013; Introduction to Developmental Psychology (Instructor: Michael C. Frank), fall 2012, spring 2014;  Introduction to Symbolic Systems (Instructors: Dan Lassiter and Thomas Icard),  Stanford University, fall 2015 
+
+\hangindent=.7cm Undergraduate Thesis Advisor,  Elise Sugarman, Stanford University, 2013-2014
+
+\hangindent=.7cm Mentor, CSLI Intern Program, Stanford University, 2013-2015
+
+\hangindent=.7cm Mentor, Raising Interest in Science and Engineering, Stanford University, summer 2012-2015
+
+
 
 \section*{Grants}
 \begin{itemize}
-\item 01.11.2016 -- 31.05.2017 SSMART Grant for the MetaLab Project (Website: metalab.stanford.edu) Funding amount: \$29,100; Co-Investigators: Christina Bergmann, Sho
+\item 2016 -- 2017 SSMART, MetaLab Project (metalab.stanford.edu); Funding amount: \$29,100; Co-Investigators: Christina Bergmann, Sho
 Tsuji, Page Piccinini, Mika Braginsky, Alejandrina Cristia, Michael C. Frank
 \end{itemize}
 
 
 
 \bigskip
-
-% Footer
-\begin{center}
-  \begin{footnotesize}
-    Last updated: \today \\
-    \href{\footerlink}{\texttt{\footerlink}}
-  \end{footnotesize}
-\end{center}
 
 \end{document}
