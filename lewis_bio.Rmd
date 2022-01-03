@@ -1,0 +1,87 @@
+---
+title: "Molly Lewis"
+date: "\\vspace{-3em}"
+output: 
+  pdf_document:
+   includes:
+    in_header: style/preamble.tex
+   template: null
+   keep_tex: no
+documentclass: style/nsf2
+bibliography: lewis_papers.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+&nbsp;
+
+
+## a. Professional Preparation
+
+* Reed College, Portland OR
+        Linguistics;
+        B.A., 2009
+
+* Stanford University, Stanford, CA
+        Psychology;
+        Ph.D., 2016
+
+* University of Wisconsin-Madison, Madison WI
+        Psychology;
+        Postdoctoral, 2017-present
+
+
+
+&nbsp;
+
+
+## b. Appointments
+
+* Lab Manager;
+        Department of Psychology, University of Illinois, Urbana-Champaign;
+        2009-2011
+&nbsp;
+
+
+## c. Publications
+
+### Most-closely related publications
+
+1. <div class="csl-bib-body" style="line-height: 2; margin-left: 2em; text-indent:-2em;">
+  <div class="csl-entry">Lupyan, G., &amp; Lewis, M. (2017). From words-as-mappings to words-as-cues: The role of language in semantic knowledge. <i>Language, Cognition and Neuroscience</i>. <a href="https://doi.org/10.1080/23273798.2017.1404114">https://doi.org/10.1080/23273798.2017.1404114</a></div>
+  <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_id=info%3Adoi%2F10.1080%2F23273798.2017.1404114&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=From%20words-as-mappings%20to%20words-as-cues%3A%20The%20role%20of%20language%20in%20semantic%20knowledge&amp;rft.jtitle=Language%2C%20Cognition%20and%20Neuroscience&amp;rft.aufirst=G.&amp;rft.aulast=Lupyan&amp;rft.au=G.%20Lupyan&amp;rft.au=M.%20Lewis&amp;rft.date=2017"></span>
+</div>
+
+2. <div class="csl-bib-body" style="line-height: 2; margin-left: 2em; text-indent:-2em;">
+  <div class="csl-entry">Lewis, M., &amp; Lupyan, G. (2018). Language use shapes cultural norms: Large scale evidence from gender. In <i>Proceedings of the 40th Annual Meeting of the Cognitive Science Society.</i> (pp. 2041–2046). Madison, WI. Retrieved from <a href="https://github.com/mllewis/IATLANG">https://github.com/mllewis/IATLANG</a></div>
+  <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=proceeding&amp;rft.atitle=Language%20use%20shapes%20cultural%20norms%3A%20Large%20scale%20evidence%20from%20gender&amp;rft.btitle=Proceedings%20of%20the%2040th%20Annual%20Meeting%20of%20the%20Cognitive%20Science%20Society.&amp;rft.place=Madison%2C%20WI&amp;rft.aufirst=M.&amp;rft.aulast=Lewis&amp;rft.au=M.%20Lewis&amp;rft.au=G.%20Lupyan&amp;rft.date=2018&amp;rft.pages=2041-2046&amp;rft.spage=2041&amp;rft.epage=2046"></span>
+</div>
+
+&nbsp;
+
+### Significant Publications
+
+1.
+2.
+3.
+4.
+5.
+
+
+&nbsp;
+
+
+## d. Synergistic activities
+
+1. Trained numerous undergraduate research assistants on psychological methods, as well as high-school students from under-represented minorities through the Raising Interest in Science and Engineering (RISE) program at Stanford University.
+
+2. Presented research at numerous international conferences including Cognitive Science Society, the International Conference for Computational Social Science, and the International Psychonomics Leading Edge Workshop.
+
+3. Led numerous discussion and workshops on reproducible methods in psychological science, including a workshop on meta-analytic methods at the Annual Cognitive Science meeting in 2016.
+
+
+
+
+
